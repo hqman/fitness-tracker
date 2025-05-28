@@ -1,0 +1,5 @@
+{
+  "name": "Fitness Tracker Home",
+  "description": "A prototype of a Keep-style fitness check-in mini-program home page, showcasing today's workout, goals, and recommended courses. Styled with Tailwind CSS and uses Recharts for progress visualization.",
+  "requestFramePermissions": []
+}

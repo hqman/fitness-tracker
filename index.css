@@ -1,0 +1,35 @@
+
+/* Tailwind base styles, components, and utilities will be injected here if using PostCSS setup */
+/* For CDN usage, this file can be minimal or used for specific global overrides */
+
+/* Example: Ensure body has a default background if not covered by components */
+body {
+  background-color: #18181b; /* zinc-900, ensuring full page background */
+}
+
+/* Additional global styles can go here */
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent; /* Make the track invisible */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); /* Color of the scroll thumb */
+  border-radius: 10px; /* Roundness of the scroll thumb */
+  border: 1px solid transparent; /* Creates padding around scroll thumb */
+  background-clip: content-box; /* Ensures border doesn't overlap thumb */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.4); /* Color of the scroll thumb on hover */
+}
+
+/* For Firefox */
+body {
+  scrollbar-width: thin; /* "auto" or "thin" */
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent; /* thumb and track color */
+}
